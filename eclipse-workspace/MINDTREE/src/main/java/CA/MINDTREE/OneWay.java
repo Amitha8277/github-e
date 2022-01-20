@@ -10,8 +10,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class OneWay {
 
-
-
 public static void main(String[] args) throws InterruptedException {
 // TODO Auto-generated method stub
 System.setProperty("webdriver.edge.driver","C:\\Users\\M1077324\\Downloads\\edgedriver_win64 (1)\\msedgedriver.exe");
@@ -28,8 +26,5 @@ driver.findElement(By.id("pickUpTime")).sendKeys(Keys.ENTER);
 driver.findElement(By.xpath(halfXpath + "/form/div[4]/div/button")).click();
 Thread.sleep(1500);
 
-
-
 }
-
 }

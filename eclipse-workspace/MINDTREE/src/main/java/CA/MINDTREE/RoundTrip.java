@@ -7,7 +7,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.edge.EdgeDriver;
 
 
-
 public class RoundTrip {
 public static void main(String[] args) throws InterruptedException {
 // TODO Auto-generated method stub
@@ -15,9 +14,6 @@ System.setProperty("webdriver.edge.driver","C:\\Users\\M1077324\\Downloads\\edge
 EdgeDriver driver = new EdgeDriver();
 driver.get("https://www.savaari.com/");
 driver.findElement(By.xpath("//*[@id=\"approot\"]/mat-sidenav-container/mat-sidenav-content/app-home/div/app-home-container/div[1]/div[1]/div[2]/app-outstation/div/div[2]/label")).click();
-
-
-
 
 
 driver.findElement(By.xpath("//*[@id=\"fromCityList\"]")).sendKeys("Bangalore");
